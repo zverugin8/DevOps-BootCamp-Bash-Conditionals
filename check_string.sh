@@ -34,6 +34,6 @@ done < <(echo -n "$new_str")
 # echo "dig:"$digits
 # echo "spec:"$specials
 printf 'Numbers: %s Symbols: %s Letters: %s\n' $digits $specials $letters
-echo "Numbers: 3 Symbols: 2 Letters: 5"
+#echo "Numbers: 3 Symbols: 2 Letters: 5"
 
 IFS=$OLD_IFS
